@@ -1,0 +1,22 @@
+{
+  "name": "perfo-muzik-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Perfo",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.7.5",
+    "discord.js": "^12.2.0",
+    "distube": "^3.0.3",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.4.0",
+    "opusscript": "0.0.8",
+    "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {}
+}
