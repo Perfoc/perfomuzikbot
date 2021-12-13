@@ -1,5 +1,0 @@
-{
-  "PREFIX": "m.",
-  "YOUTUBE_API_KEY": "AIzaSyATaLOHwnD-SkpAwVv09xtWrRHsG7MS4sk",
-  "TOKEN": "process.env.TOKEN"
-}
