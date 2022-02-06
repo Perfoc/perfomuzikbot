@@ -9,12 +9,13 @@ module.exports = {
     `
 \`${ayarlar.PREFIX}oynat <şarkı-adı>\` : **Bir Şarkıyı Oynatır.** \n
 \`${ayarlar.PREFIX}atla\` : **Sıradaki şarkıyı atlar.**\n
-\`${ayarlar.PREFIX}döngü\` : **Çalan şarkıyı sürekli tekrarlar.**\n
 \`${ayarlar.PREFIX}durdur\` : **Şarkıyı durdurur.**\n
 \`${ayarlar.PREFIX}devam\` : **Duran şarkıyı devam ettirir.**\n
+\`${ayarlar.PREFIX}kapat\` : **Botun listesini silip odadan çıkartır.**\n
 \`${ayarlar.PREFIX}sıra\` : **Şarkı sırasını gösterir.**\n
 \`${ayarlar.PREFIX}şarkı\` : **Oynatılan şarkının adını söyler.**\n
 \`${ayarlar.PREFIX}davet\` : **Botun davet linkini atar.**\n
+\`${ayarlar.PREFIX}help\` : **English help menu.**\n
 `)
                        .setColor("ffc300")
                       )    
@@ -26,4 +27,4 @@ exports.conf = {
   aliases: [''],
   permLevel: 0,
   kategori: 'Müzik'
-}; 
+};

@@ -1,19 +1,19 @@
 module.exports = {
-  name: "şarkı",
+  name: "song",
   description: "Anlık çalan şarkıyı gösterir",
   execute (client, message, args) {
     
       const { channel } = message.member.voice;
     if (!channel) {
-      return message.channel.send("**Herhangi bir ses kanalında bulunmalısınız.**");
+      return message.channel.send("**You must be on any audio channel.**");
     }
 
     const serverQueue = message.client.queue.get(message.guild.id);
 
     if (!serverQueue) {
-      return message.channel.send("**Herhangi bir şarkı oynatmıyorum.**");
+      return message.channel.send("**I am not playing any songs.**");
     }
-    message.channel.send('**Şuanda Oynatılan Şarkı. - **' + serverQueue.songs[0].title)
+    message.channel.send(serverQueue.songs[0].title + ' - **Currently Playing Song.**')
 
     
     

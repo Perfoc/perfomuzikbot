@@ -1,0 +1,266 @@
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+{
+  code: 403,
+  message: 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.',
+  errors: [
+    {
+      message: 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.',
+      domain: 'youtube.quota',
+      reason: 'quotaExceeded'
+    }
+  ]
+}
+(node:8454) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'title' of null
+    at Object.execute (/home4/fotoakin/perfomuzikbot/commands/oynat.js:108:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:8454) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 27)
+(node:8454) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+{
+  code: 403,
+  message: 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.',
+  errors: [
+    {
+      message: 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.',
+      domain: 'youtube.quota',
+      reason: 'quotaExceeded'
+    }
+  ]
+}
+(node:8454) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'title' of null
+    at Object.execute (/home4/fotoakin/perfomuzikbot/commands/oynat.js:108:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:8454) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 29)
+{
+  code: 403,
+  message: 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.',
+  errors: [
+    {
+      message: 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.',
+      domain: 'youtube.quota',
+      reason: 'quotaExceeded'
+    }
+  ]
+}
+(node:8454) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'title' of null
+    at Object.execute (/home4/fotoakin/perfomuzikbot/commands/oynat.js:108:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:8454) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 31)
+MinigetError: input stream: Status code: 403
+    at ClientRequest.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+    at HTTPParser.execute (<anonymous>)
+    at TLSSocket.socketOnData (_http_client.js:474:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9) {
+  statusCode: 403
+}
+{
+  code: 403,
+  message: 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.',
+  errors: [
+    {
+      message: 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.',
+      domain: 'youtube.quota',
+      reason: 'quotaExceeded'
+    }
+  ]
+}
+(node:8454) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'title' of null
+    at Object.execute (/home4/fotoakin/perfomuzikbot/commands/oynat.js:108:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:8454) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 33)
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Could not join voice channel: Error [VOICE_CONNECTION_TIMEOUT]: Connection not established within 15 seconds.
+Could not join voice channel: Error [VOICE_CONNECTION_TIMEOUT]: Connection not established within 15 seconds.
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+MinigetError: input stream: Status code: 403
+    at ClientRequest.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+    at HTTPParser.execute (<anonymous>)
+    at TLSSocket.socketOnData (_http_client.js:474:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9) {
+  statusCode: 403
+}
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+MinigetError: Status code: 410
+    at ClientRequest.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+    at TLSSocket.socketOnData (_http_client.js:474:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  statusCode: 410
+}
+Could not join voice channel: Error [VOICE_CONNECTION_TIMEOUT]: Connection not established within 15 seconds.
+MinigetError: Status code: 410
+    at ClientRequest.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+    at TLSSocket.socketOnData (_http_client.js:474:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  statusCode: 410
+}
+MinigetError: Status code: 410
+    at ClientRequest.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+    at TLSSocket.socketOnData (_http_client.js:474:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  statusCode: 410
+}
+(node:8942) UnhandledPromiseRejectionWarning: Error [WS_NOT_OPEN]: Websocket not open to send {"op":1,"d":{"protocol":"udp","data":{"address":"213.238.183.9","port":59846,"mode":"xsalsa20_poly1305_lite"}}}
+    at /home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/discord.js/src/client/voice/networking/VoiceWebSocket.js:93:68
+    at new Promise (<anonymous>)
+    at VoiceWebSocket.send (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/discord.js/src/client/voice/networking/VoiceWebSocket.js:92:12)
+    at VoiceWebSocket.sendPacket (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/discord.js/src/client/voice/networking/VoiceWebSocket.js:112:17)
+    at Socket.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/discord.js/src/client/voice/networking/VoiceUDPClient.js:117:39)
+    at Object.onceWrapper (events.js:421:26)
+    at Socket.emit (events.js:314:20)
+    at UDP.onMessage [as onmessage] (dgram.js:921:8)
+(node:8942) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:8942) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Could not join voice channel: Error [VOICE_CONNECTION_TIMEOUT]: Connection not established within 15 seconds.
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+MinigetError: input stream: Status code: 403
+    at ClientRequest.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+    at HTTPParser.execute (<anonymous>)
+    at TLSSocket.socketOnData (_http_client.js:474:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9) {
+  statusCode: 403
+}
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+MinigetError: input stream: Status code: 403
+    at ClientRequest.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+    at HTTPParser.execute (<anonymous>)
+    at TLSSocket.socketOnData (_http_client.js:474:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9) {
+  statusCode: 403
+}
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Could not join voice channel: Error [VOICE_CONNECTION_TIMEOUT]: Connection not established within 15 seconds.
+Could not join voice channel: Error [VOICE_CONNECTION_TIMEOUT]: Connection not established within 15 seconds.
+Could not join voice channel: Error [VOICE_CONNECTION_TIMEOUT]: Connection not established within 15 seconds.
+Could not join voice channel: Error [VOICE_CONNECTION_TIMEOUT]: Connection not established within 15 seconds.
+Could not join voice channel: Error [VOICE_CONNECTION_TIMEOUT]: Connection not established within 15 seconds.
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+MinigetError: input stream: Status code: 403
+    at ClientRequest.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+    at HTTPParser.execute (<anonymous>)
+    at TLSSocket.socketOnData (_http_client.js:474:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9) {
+  statusCode: 403
+}
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+MinigetError: Status code: 410
+    at ClientRequest.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+    at HTTPParser.execute (<anonymous>)
+    at TLSSocket.socketOnData (_http_client.js:474:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9) {
+  statusCode: 410
+}
+(node:19114) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'title' of null
+    at Object.execute (/home4/fotoakin/perfomuzikbot/commands/oynat.js:108:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:19114) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:19114) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+MinigetError: input stream: Status code: 403
+    at ClientRequest.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+    at HTTPParser.execute (<anonymous>)
+    at TLSSocket.socketOnData (_http_client.js:474:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9) {
+  statusCode: 403
+}
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+MinigetError: input stream: Status code: 403
+    at ClientRequest.<anonymous> (/home4/fotoakin/nodevenv/perfomuzikbot/12/lib/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (events.js:421:26)
+    at ClientRequest.emit (events.js:314:20)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+    at TLSSocket.socketOnData (_http_client.js:474:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  statusCode: 403
+}
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Could not join voice channel: Error [VOICE_CONNECTION_TIMEOUT]: Connection not established within 15 seconds.
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Could not join voice channel: Error [VOICE_CONNECTION_TIMEOUT]: Connection not established within 15 seconds.

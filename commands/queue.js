@@ -1,16 +1,16 @@
 module.exports = {
-  name: "sıra",
+  name: "queue",
   description: "Kuyrukta bulunan şarkıları gösterir.",
   execute: (client, message, args) => {
     const { channel } = message.member.voice;
     if (!channel) {
-      return message.channel.send("**Herhangi bir ses kanalında bulunmalısınız.**");
+      return message.channel.send("**You must be on any audio channel.**");
     }
 
     const serverQueue = message.client.queue.get(message.guild.id);
 
     if (!serverQueue) {
-      return message.channel.send("**Kuyrukta şarkı bulamadım.**");
+      return message.channel.send("**I couldn't find any songs in the queue.**");
     } 
 
     message.channel.send(

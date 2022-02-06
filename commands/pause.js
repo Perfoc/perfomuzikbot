@@ -1,23 +1,23 @@
 module.exports = {
-  name: "durdur",
+  name: "pause",
   description: "Çalan şarkıyı durdurur.",
   execute (client, message, args) {
   const { channel } = message.member.voice;
     if (!channel) {
     
-      return message.channel.send("**Herhangi bir ses kanalında bulunmalısınız.**");
+      return message.channel.send("**You must be on any audio channel.**");
     }
     const serverQueue = message.client.queue.get(message.guild.id);
 
     if (!serverQueue) {
-      return message.channel.send("**Duraklatabileceğim bir şarkı bulamadım.**");
+      return message.channel.send("**I couldn't find a song to pause.**");
     }
-    if(!serverQueue.playing) return message.channel.send('**Şarkılar Zaten Duraklatılmış.**')
+    if(!serverQueue.playing) return message.channel.send('**Songs Already Paused.**')
     if(serverQueue && serverQueue.playing) {
       serverQueue.playing = false;
       serverQueue.connection.dispatcher.pause(true)
       
-      return message.channel.send("✅ **| Oynatılan şarkı duraklatıldı.**")
+      return message.channel.send("✅ **| The playing song is paused.**")
   }  
   }
 }

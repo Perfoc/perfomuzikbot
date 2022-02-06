@@ -7,7 +7,7 @@ module.exports = {
     if(!song) {
       queue.channel.leave();
       message.client.queue.delete(message.guild.id)
-      return queue.textChannel.send("Şarkı sırası şimdi sona erdi.").catch(console.error)
+      return queue.textChannel.send("The song queue is now over.").catch(console.error)
     }
     
     try {
@@ -22,7 +22,7 @@ module.exports = {
       }
       
       if(error.message.includes === "copyright") {
-        return message.channel.send("Bu video telif hakları nedeni ile oynatılamıyor.")
+        return message.channel.send("This video cannot be played due to copyright reasons.")
       } else {
         console.error(error)
       }
@@ -45,14 +45,14 @@ module.exports = {
     
       queue.textChannel.send(
         new Discord.MessageEmbed()
-        .setAuthor('Oynatılıyor!',message.author.avatarURL({format : "png",dynamic : true}))
+        .setAuthor('Playing!',message.author.avatarURL({format : "png",dynamic : true}))
         .setTitle(song.title)
         .setURL(song.url)
         .setThumbnail(song.thumbnail)
-        .addField('Kanal',song.author,true)
-        .addField('Video Saniyesi',song.duration,true)
-        .addField('İzlenme Sayısı',song.wiews.toLocaleString(),true)
-        .addField('Beğeni 👍',song.likes.trues,true)
+        .addField('Channel',song.author,true)
+        .addField('Video seconds',song.duration,true)
+        .addField('Views',song.wiews.toLocaleString(),true)
+        .addField('Like 👍',song.likes.trues,true)
         .setColor("ffc300")
       
       
@@ -61,4 +61,4 @@ module.exports = {
     
     
   }
-}// ARDADEMR YOUTUBE KANALINDAN ALINMIŞTIR
+}

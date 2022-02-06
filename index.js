@@ -1,12 +1,12 @@
 const discord = require("discord.js")
-
 const client = new discord.Client({ disableEveryone: true, disabledEvents: ["TYPING_START"] });
 const { readdirSync } = require("fs");
 const { join } = require("path");
 const ayarlar = require("./ayarlar.json")
 client.on("ready", () => {
-  console.log('Bot aktif')
-  client.user.setActivity("m.yardim | Perfonline 💙", {
+  console.log(`Bot aktif`)
+
+  client.user.setActivity("m.yardım | m.help | Perfonline 💙", {
   type: "STREAMING",
   url: "https://www.twitch.tv/perfonline"
 });
@@ -47,5 +47,4 @@ client.on("message", message => {
     
   }
 });
-
 client.login(process.env.TOKEN)

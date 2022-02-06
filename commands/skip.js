@@ -1,20 +1,20 @@
 module.exports = {
-  name: "atla",
+  name: "skip",
   description: "Çalan şarkıyı kapatır ve sonraki şarkıyı açar.",
   execute(client, message, args) {
     const { channel } = message.member.voice;
 
     if (!channel) {
-      return message.channel.send("**Herhangi bir ses kanalında bulunmalısınız.**");
+      return message.channel.send("**You must be on any audio channel.**");
     }
 
     const serverQueue = message.client.queue.get(message.guild.id);
 
     if (!serverQueue) {
-      return message.channel.send("**Atlayabileceğim bir şarkı yok.**");
+      return message.channel.send("**There is no song I can skip.**");
     }
     serverQueue.connection.dispatcher.end();
-    message.channel.send("✅ **| Şarkı geçildi.**");
+    message.channel.send("✅ **| Song passed.**");
   }
 };
 exports.conf = {
