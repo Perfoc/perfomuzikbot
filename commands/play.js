@@ -127,7 +127,6 @@ module.exports = {
         console.error(`Could not join voice channel: ${error}`);
         message.client.queue.delete(message.guild.id);
         await channel.leave();
-        return message.channel.send({embed: {"description": `Kanala giriş yapamıyorum.: ${error}`, "color": "#ffc300"}}).catch(console.error);
       }
     }
     

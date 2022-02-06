@@ -120,14 +120,12 @@ module.exports = {
     
      if (!serverQueue) {
       try {
-    
         queueConstruct.connection = await channel.join();
         play(song, message)
       } catch (error) {
         console.error(`Could not join voice channel: ${error}`);
         message.client.queue.delete(message.guild.id);
         await channel.leave();
-        return message.channel.send({embed: {"description": `Kanala giriş yapamıyorum.: ${error}`, "color": "#ffc300"}}).catch(console.error);
       }
     }
     
